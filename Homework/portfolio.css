@@ -5,9 +5,10 @@
     clear: left;
 }
 
-thumbnail {
+.container {
     color: #334;
     /* background-color: #fff;   */
+    position: relative;
     float: left; 
     width: 100px;
     height: 100px; 
@@ -15,18 +16,24 @@ thumbnail {
     margin-right: 10px; 
     /* padding: 15px; */
     border: 1px black;
-    clear: right;
+    /* clear: right; */
     margin-left: 5%;
     background-color: grey;
+    text-align: center;
+    color: orangered;
+
 }
 
-.container {
+/* .container {
     position: relative;
     text-align: center;
     color: orangered;
-}
+} */
 
 .bottom {
     position: absolute;
     bottom:0px;
+    margin: 0 auto;
+    background-color: blue;
+    width: 100%;
 }
