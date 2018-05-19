@@ -97,7 +97,8 @@ background-color: #111;
     margin-right: 10%;
     margin-top: 80px;
     margin-bottom: 30px;
-    width: 960px;
+    width: 80%;
+    /* width: 960px; */
     height: 560px;
     background: #eee;
   }
