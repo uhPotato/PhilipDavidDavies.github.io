@@ -1,0 +1,111 @@
+
+
+
+body {
+    background-color: blue;
+    background-attachment: fixed;
+    background-image: url("https://wallpapercave.com/wp/tqyeBQZ.jpg"); 
+}
+
+nav {
+    width: 100%;
+}
+
+
+h1 {
+    margin-left: 5%;
+  }
+  
+h1:after {
+    content:"";
+    border-top: 5px solid blue;
+    margin: 2rem 0;
+    display: block;
+    width: 95%;
+}
+
+.PageName {
+    float: left;
+    /* z-index: 1; */
+    font-size: 20px;
+    padding-top: 12px;
+    padding-left: 15px;
+    color: white;
+    background-color: #333;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+background-color: #111;
+}
+
+
+
+
+#full {
+    overflow: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    height: 530px;
+    background: #eee;
+  }
+
+
+  #division {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    /* background: #6ea3da; */
+  }
+  
+  .picture {
+      margin-left: 5%;
+  }
+
+  aside {
+      color: #334;
+      /* background-color: #fff;   */
+      float: left; 
+      width: 175px;
+      height: 175px;    
+      margin-right: 10px; 
+      /* padding: 15px; */
+      border: 1px black;
+      clear: right;
+      margin-left: 5%;
+  }
+  
+  footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    background: #ccc;
+  }
+
+  .active {
+      color: grey;
+  }
