@@ -33,6 +33,7 @@ nav {
 } */
 
 h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
     margin-left: 5%;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -47,6 +48,7 @@ h1:after {
 }
 
 .PageName {
+    font-family: 'Georgia', Times, Times New Roman, serif;
     float: left;
     /* z-index: 1; */
     height: 100%;
@@ -95,8 +97,8 @@ background-color: #111;
     margin-right: 10%;
     margin-top: 80px;
     margin-bottom: 30px;
-    width: 80%;
-    height: 480px;
+    width: 960px;
+    height: 560px;
     background: #eee;
   }
 
